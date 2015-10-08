@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Alunos";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Content/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/ui.jqgrid.css" />
+
+<h2>Alunos</h2>
+<table id="navgrid" class="scroll"></table>
+<div id="pagernav" class="scroll" style="text-align:center;"></div> 
+
+
+
+
+@section scripts{
+    <script src="~/Content/js/ajaxupload-v1.2.js" type="text/javascript"> </script>
+<script src="~/Content/js/jquery.jqGrid.js" type="text/javascript"> </script>
+    <script src="~/Content/js/i18n/grid.locale-pt-br.js" type="text/javascript"></script>
+    
+    <script src="~/Content/js/Alunos.js" type="text/javascript"> </script>
+}
